@@ -1,0 +1,5 @@
+[wrap-git]
+directory=linux-util
+url=https://github.com/prozum/util-linux.git
+push-url=git@github.com:prozum/util-linux.git
+revision=master
