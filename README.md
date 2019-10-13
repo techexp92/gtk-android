@@ -1,21 +1,20 @@
 # gtk-android
-
-This is a set of hacks, makefiles and configs allowing you to run GTK-based forms on Android platform.
+Meson project to build GTK on Android.
 
 ## Dependencies Meson
 | Library | Status |
 |-|-|
 | atk | Done |
-| cairo | WIP |
+| gdk-pixbuf | Done |
+| pango | Done |
+| gdk | 4 only |
+| gtk | 4 only |
+| glib | git |
 | libffi | Wrap |
+| pcre | Wrap |
+| cairo | WIP |
 | fontconfig | WIP |
 | freetype | WIP |
-| gdk | 4 only |
-| gdk-pixbuf | Done |
-| glib | git |
-| gmodule | ? |
 | gobject | WIP |
-| gtk | 4 only |
 | harfbuzz | WIP |
-| pango | Done |
-| pcre | Wrap |
+| gmodule | ? |
